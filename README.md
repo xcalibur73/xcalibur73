@@ -21,7 +21,6 @@
 - 🚀 **Web Performance & CWV:** Specialized in achieving sub-2.5s LCP, sub-200ms INP, and 0.00 CLS across Next.js and high-traffic WordPress architectures.
 - 📐 **Technical SEO & Entity Graph:** Architecting Schema.org JSON-LD entity structures, crawl budget preservation, and AI search readiness (GEO / AEO).
 - 🤖 **AI-Native Engineering:** Directing autonomous AI coding agents as a full-time technical pair programmer to ship production-grade software at 5x-10x velocity.
-- 💼 **Entrepreneurship & Management:** Co-Founder at **Strivor BD** & former Marketing Manager at **Vintech Digital**.
 
 ---
 
