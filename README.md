@@ -48,6 +48,15 @@ Architectural and interior design publication built on GeneratePress with native
 
 ---
 
+## Empirical Benchmarks & Field Studies
+
+Each diagnostic tool includes documented empirical benchmarks and case studies across production web targets:
+- [DOMHydrate 12-Site SSR vs CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md): Measures DOM node inflation (+13% to +30% on client-rendered SPAs) and critical link parity losses.
+- [CitationPulse 12-Site GEO Index](https://github.com/xcalibur73/citation-pulse/blob/main/BENCHMARKS.md): Audits crawler access policies (41.7% of surveyed sites block training scrapers while permitting search retrieval bots) and Princeton KDD citability factors.
+- [IndexTrace Forensic Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md): Analyzes line-level RFC 9309 collisions (such as line 238 on GitHub), 4,100ms+ cumulative redirect latency, and soft-404 heuristics.
+
+---
+
 ## GitHub Statistics
 
 <div align="center">
