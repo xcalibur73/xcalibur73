@@ -1,4 +1,4 @@
-# Sadikeen Firoz
+# xcalibur73
 
 Technical SEO specialist and systems builder focused on Core Web Vitals, crawl architecture, and Generative Engine Optimization. I direct autonomous AI coding agents to build and ship production-grade developer tools and web performance audits.
 
@@ -51,7 +51,7 @@ Architectural and interior design publication built on GeneratePress with native
 ## GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xcalibur73&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sadikeen's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=xcalibur73&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xcalibur73&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
