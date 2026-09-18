@@ -5,12 +5,11 @@
 
 [![Website](https://img.shields.io/badge/Live_Platform-webaudits.pro-B76345?style=for-the-badge&logo=googlechrome&logoColor=white)](https://webaudits.pro)
 [![Publication](https://img.shields.io/badge/Publication-aestheticarches.com-242321?style=for-the-badge&logo=wordpress&logoColor=white)](https://aestheticarches.com)
-[![Email](https://img.shields.io/badge/Email-sfsadik22%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sfsadik22@gmail.com)
 
 <br />
 
 <p align="center">
-  Electrical & Electronic Engineering (EEE) graduate bridging the gap between <b>search architecture</b>, <b>frontend performance (Core Web Vitals)</b>, and <b>autonomous AI coding workflows</b>.
+  Bridging the gap between <b>search architecture</b>, <b>frontend performance (Core Web Vitals)</b>, and <b>autonomous AI coding workflows</b>.
 </p>
 
 </div>
@@ -75,6 +74,5 @@
 
 ### 📬 Connect With Me
 
-- **Email:** [sfsadik22@gmail.com](mailto:sfsadik22@gmail.com)
 - **Platforms:** [WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
 - **Open To:** Remote Technical SEO Roles, Core Web Vitals Engineering Contracts, and AI-Augmented Development Sprints.
