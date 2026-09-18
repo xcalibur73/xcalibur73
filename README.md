@@ -38,7 +38,7 @@ Generative Engine Optimization (GEO) and AI citability auditor. Implements empir
 Google Search Console emergency triage utility and RFC 9309 crawler tracer. Follows redirect chains hop by hop, detects circular loops, flags SSL protocol downgrades, and pinpoints the exact line number of blocking directives in robots.txt using standard longest-match precedence. Classifies soft-404 patterns on HTTP 200 responses and outputs ordered developer remediation steps.
 
 ### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
-Manifest V3 Chrome extension for client-side performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates consultative client teardowns and exportable CSV audit summaries.
+Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
 
 ### [WebAudits.pro](https://webaudits.pro)
 Technical performance intelligence and audit platform. Houses 105 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 141 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
@@ -50,10 +50,10 @@ Architectural and interior design publication built on GeneratePress with native
 
 ## Empirical Benchmarks & Field Studies
 
-Each diagnostic tool includes documented empirical benchmarks and case studies across production web targets:
-- [DOMHydrate 12-Site SSR vs CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md): Measures DOM node inflation (+13% to +30% on client-rendered SPAs) and critical link parity losses.
-- [CitationPulse 12-Site GEO Index](https://github.com/xcalibur73/citation-pulse/blob/main/BENCHMARKS.md): Audits crawler access policies (41.7% of surveyed sites block training scrapers while permitting search retrieval bots) and Princeton KDD citability factors.
-- [IndexTrace Forensic Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md): Analyzes line-level RFC 9309 collisions (such as line 238 on GitHub), 4,100ms+ cumulative redirect latency, and soft-404 heuristics.
+Each diagnostic tool includes documented empirical benchmarks and case studies gathered while beta testing on random sites:
+- [DOMHydrate 12-Site SSR vs CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md): Measures DOM node inflation (+13% to +30% on client-rendered SPAs) and critical link parity losses gathered while beta testing on random sites.
+- [CitationPulse 12-Site GEO Index](https://github.com/xcalibur73/citation-pulse/blob/main/BENCHMARKS.md): Audits crawler access policies (41.7% of surveyed sites block training scrapers while permitting search retrieval bots) and Princeton KDD citability factors evaluated while beta testing on random sites.
+- [IndexTrace Forensic Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md): Analyzes line-level RFC 9309 collisions (such as line 238 on GitHub), 4,100ms+ cumulative redirect latency, and soft-404 heuristics captured while beta testing on random sites.
 
 ---
 
