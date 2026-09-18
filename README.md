@@ -62,6 +62,13 @@
 - **2026 AI Search Crawler Governance:** Audits `robots.txt` access distinguishing live search bots (`OAI-SearchBot`, `Claude-SearchBot`, `PerplexityBot`) from model scrapers (`GPTBot`, `CCBot`).
 - **Entity Graph Disambiguation:** Validates Schema.org Knowledge Graph connections (`sameAs` links to Wikidata/Wikipedia) and `/llms.txt` standard syntax.
 
+#### 🔍 [IndexTrace](https://github.com/xcalibur73/index-trace)
+*Google Search Console Emergency Triage & RFC 9309 Crawler Collision Tracer*
+- **Hop-by-Hop Redirect Tracing:** Measures per-hop response latencies, detects infinite redirect loops, and flags SSL protocol downgrades.
+- **Line-by-Line RFC 9309 Matcher:** Pinpoints the exact line number and rule in `robots.txt` blocking search engine crawlers with priority resolution (specific agents override wildcard `*`, longest pattern wins).
+- **Directives & Soft-404 Analysis:** Detects hidden `X-Robots-Tag: noindex` edge headers, conflicting HTML canonical tags, and soft-404 patterns on HTTP 200 responses.
+- **Actionable Engineering Remediation:** Synthesizes deterministic GSC statuses (`CLEAN_INDEXABLE`, `BLOCKED_BY_ROBOTS_TXT`, `EXCLUDED_BY_NOINDEX`, `REDIRECT_ERROR`, `SOFT_404_DETECTED`) into step-by-step developer fixes.
+
 #### 🌐 [WebAudits.pro](https://webaudits.pro)
 *Next.js 14 Technical Performance Intelligence & Audit Platform*
 - **Ultra-Fast Architecture:** 103 pre-rendered static routes with 0 layout shift and sub-2.5s mobile LCP.
