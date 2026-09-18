@@ -1,87 +1,54 @@
-<div align="center">
+# Sadikeen Firoz
 
-# Hi, I'm Sadikeen Firoz 👋
-### Technical SEO & Web Performance Specialist • AI-Augmented Systems Architect
+Technical SEO specialist and systems builder focused on Core Web Vitals, crawl architecture, and Generative Engine Optimization. I direct autonomous AI coding agents to build and ship production-grade developer tools and web performance audits.
 
-[![Website](https://img.shields.io/badge/Live_Platform-webaudits.pro-B76345?style=for-the-badge&logo=googlechrome&logoColor=white)](https://webaudits.pro)
-[![Publication](https://img.shields.io/badge/Publication-aestheticarches.com-242321?style=for-the-badge&logo=wordpress&logoColor=white)](https://aestheticarches.com)
-
-<br />
-
-<p align="center">
-  Bridging the gap between <b>search architecture</b>, <b>frontend performance (Core Web Vitals)</b>, and <b>autonomous AI coding workflows</b>.
-</p>
-
-</div>
+[WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
 
 ---
 
-### ⚡ What I Do & How I Build
+## Focus Areas
 
-- 🚀 **Web Performance & CWV:** Specialized in achieving sub-2.5s LCP, sub-200ms INP, and 0.00 CLS across Next.js and high-traffic WordPress architectures.
-- 📐 **Technical SEO & Entity Graph:** Architecting Schema.org JSON-LD entity structures, crawl budget preservation, and AI search readiness (GEO / AEO).
-- 🤖 **AI-Native Engineering:** Directing autonomous AI coding agents as a full-time technical pair programmer to ship production-grade mini tools at 5x-10x velocity.
+- Web performance and Core Web Vitals: sub-2.5s LCP, sub-200ms INP, and 0.00 CLS across Next.js and high-traffic WordPress deployments.
+- Technical SEO and knowledge graphs: Schema.org JSON-LD architecture, crawl budget preservation, and AI search readiness.
+- AI-native development: orchestrating autonomous coding agents as a force multiplier to ship production-grade mini tools at 5x-10x velocity.
 
 ---
 
-### 🛠️ Technical Stack & Tooling
+## Technical Stack
 
-<div align="left">
-
-| Domain | Technologies & Frameworks |
+| Domain | Tooling and Technologies |
 |---|---|
-| **Core Web Vitals & Performance** | `INP Optimization` `LCP Acceleration` `0-CLS Layouts` `DOM Hierarchy Profiling` `TTFB Tuning` `Edge Caching` |
-| **Frontend & Extensions** | `Next.js 14/15 (App Router)` `TypeScript` `React` `Tailwind CSS` `Chrome Extensions (Manifest V3)` |
-| **Technical SEO & AI Search** | `Schema.org JSON-LD` `Google Search Console` `llms.txt` `Entity Graphs` `Crawl Budget Management` |
-| **CMS & Publishing** | `GeneratePress` `Gutenberg Custom Blocks` `LiteSpeed Cache` `Redis Object Cache` `Cloudflare CDN` |
-| **Automation & Analysis** | `Firecrawl` `Headless Automation` `Chrome DevTools Profiling` `WebPageTest` `Python` |
-
-</div>
+| Core Web Vitals | INP optimization, LCP acceleration, 0-CLS layouts, DOM profiling, TTFB tuning, edge caching |
+| Frontend | Next.js 14/15 App Router, TypeScript, React, Tailwind CSS, Chrome Extensions (Manifest V3) |
+| Technical SEO | Schema.org JSON-LD, Google Search Console, llms.txt, entity graphs, crawl log analysis |
+| CMS Architecture | GeneratePress, Gutenberg custom blocks, LiteSpeed Cache, Redis object cache, Cloudflare CDN |
+| Analysis & Scraping | Chromium headless automation, Chrome DevTools profiling, WebPageTest, Python, Firecrawl |
 
 ---
 
-### 🌟 Featured Production Projects
+## Featured Tools & Production Projects
 
-#### 🎯 [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
-*Production Chrome Extension (Manifest V3) for Forensic Performance Auditing*
-- **In-Browser Forensics:** Scans DOM depth, document payload bytes, mobile scaling directives, and Schema.org syntax in under 50ms.
-- **Evidence-Grounded AI Copy:** Auto-generates consultative cold emails, LinkedIn DMs, and Loom pitches citing exact observed metrics.
-- **Integrated Lead CRM:** Built-in prospect management with stage tracking (`New` -> `Contacted` -> `Replied` -> `Won`) and RFC 4180 CSV export.
-- **1-Page Teardown Dossier:** Print-ready client audit dossiers with native PDF print stylesheets and zero server queue dependencies.
+### [DOMHydrate](https://github.com/xcalibur73/dom-hydrate)
+Forensic CSR vs SSR SEO diff engine. Compares raw server HTML against fully hydrated client DOM using native Chromium (`--headless=new --dump-dom`). Detects dropped Schema.org JSON-LD scripts, client-injected noindex directives, and internal link graph discrepancies before deployment.
 
-#### 🔬 [DOMHydrate](https://github.com/xcalibur73/dom-hydrate)
-*Forensic CSR vs. SSR SEO Diff Engine*
-- **Headless JavaScript Hydration Diffing:** Uses native Chromium (`--headless=new --dump-dom`) to compare raw server HTML against rendered client DOM.
-- **Search Regression Isolation:** Identifies dropped Schema.org JSON-LD scripts, client-injected `noindex` tags, and missing internal link graph edges.
-- **DOM Footprint Analytics:** Measures node expansion percentages, payload byte bloat, and server TTFB in milliseconds.
+### [CitationPulse](https://github.com/xcalibur73/citation-pulse)
+Generative Engine Optimization (GEO) and AI citability auditor. Implements empirical scoring rules from Princeton University KDD 2024 research. Evaluates optimal passage length (134-167 words), statistical evidence (+37%), attribution markers (+40%), robots.txt permissions for search retrieval bots (OAI-SearchBot, Claude-SearchBot, PerplexityBot), and /llms.txt syntax.
 
-#### 🤖 [CitationPulse](https://github.com/xcalibur73/citation-pulse)
-*Generative Engine Optimization (GEO) & AI Citability Auditor*
-- **Princeton KDD 2024 Scoring:** Evaluates content blocks against empirical citability formulas (optimal 134-167w blocks, +37% statistics, +40% attributions, +30% quotes).
-- **2026 AI Search Crawler Governance:** Audits `robots.txt` access distinguishing live search bots (`OAI-SearchBot`, `Claude-SearchBot`, `PerplexityBot`) from model scrapers (`GPTBot`, `CCBot`).
-- **Entity Graph Disambiguation:** Validates Schema.org Knowledge Graph connections (`sameAs` links to Wikidata/Wikipedia) and `/llms.txt` standard syntax.
+### [IndexTrace](https://github.com/xcalibur73/index-trace)
+Google Search Console emergency triage utility and RFC 9309 crawler tracer. Follows redirect chains hop by hop, detects circular loops, flags SSL protocol downgrades, and pinpoints the exact line number of blocking directives in robots.txt using standard longest-match precedence. Classifies soft-404 patterns on HTTP 200 responses and outputs ordered developer remediation steps.
 
-#### 🔍 [IndexTrace](https://github.com/xcalibur73/index-trace)
-*Google Search Console Emergency Triage & RFC 9309 Crawler Collision Tracer*
-- **Hop-by-Hop Redirect Tracing:** Measures per-hop response latencies, detects infinite redirect loops, and flags SSL protocol downgrades.
-- **Line-by-Line RFC 9309 Matcher:** Pinpoints the exact line number and rule in `robots.txt` blocking search engine crawlers with priority resolution (specific agents override wildcard `*`, longest pattern wins).
-- **Directives & Soft-404 Analysis:** Detects hidden `X-Robots-Tag: noindex` edge headers, conflicting HTML canonical tags, and soft-404 patterns on HTTP 200 responses.
-- **Actionable Engineering Remediation:** Synthesizes deterministic GSC statuses (`CLEAN_INDEXABLE`, `BLOCKED_BY_ROBOTS_TXT`, `EXCLUDED_BY_NOINDEX`, `REDIRECT_ERROR`, `SOFT_404_DETECTED`) into step-by-step developer fixes.
+### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
+Manifest V3 Chrome extension for client-side performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates consultative client teardowns and exportable CSV audit summaries.
 
-#### 🌐 [WebAudits.pro](https://webaudits.pro)
-*Next.js 14 Technical Performance Intelligence & Audit Platform*
-- **Ultra-Fast Architecture:** 103 pre-rendered static routes with 0 layout shift and sub-2.5s mobile LCP.
-- **139 Validated Schema.org Instances:** Validated JSON-LD entity graphs across 10 schemas (BreadcrumbList, TechArticle, FAQPage, SoftwareApplication, WebApplication).
-- **Zero AI-Slop & Empirical Benchmarks:** Independent data-backed hosting, CDN, and plugin benchmarks.
+### [WebAudits.pro](https://webaudits.pro)
+Technical performance intelligence and audit platform. Houses 105 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 141 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
 
-#### 🏛️ [AestheticArches.com](https://aestheticarches.com)
-*Architectural & Interior Design Publication*
-- **0 CLS WordPress Build:** Engineered on GeneratePress with modular Gutenberg block markup, LiteSpeed Cache, and Cloudflare CDN.
-- **Topical Authority Network:** Structured semantic internal linking and topic clusters designed for organic search dominance.
+### [AestheticArches.com](https://aestheticarches.com)
+Architectural and interior design publication built on GeneratePress with native Gutenberg blocks, LiteSpeed server caching, and Cloudflare CDN. Maintained with a zero-CLS layout budget and structured semantic topical clusters.
 
 ---
 
-### 📈 GitHub Telemetry
+## GitHub Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=xcalibur73&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sadikeen's GitHub Stats" />
@@ -90,7 +57,8 @@
 
 ---
 
-### 📬 Connect With Me
+## Contact
 
-- **Platforms:** [WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
-- **Open To:** Remote Technical SEO Roles, Core Web Vitals Engineering Contracts, and AI-Augmented Development Sprints.
+Available for technical SEO engagements, Core Web Vitals remediation sprints, and AI-augmented developer workflows.
+
+- Platforms: [WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
