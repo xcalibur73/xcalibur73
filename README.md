@@ -43,7 +43,7 @@
 
 ### 🌟 Featured Production Projects
 
-#### 🎯 [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper)
+#### 🎯 [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
 *Production Chrome Extension (Manifest V3) for Forensic Performance Auditing*
 - **In-Browser Forensics:** Scans DOM depth, document payload bytes, mobile scaling directives, and Schema.org syntax in under 50ms.
 - **Evidence-Grounded AI Copy:** Auto-generates consultative cold emails, LinkedIn DMs, and Loom pitches citing exact observed metrics.
