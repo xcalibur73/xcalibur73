@@ -50,10 +50,22 @@
 - **Integrated Lead CRM:** Built-in prospect management with stage tracking (`New` -> `Contacted` -> `Replied` -> `Won`) and RFC 4180 CSV export.
 - **1-Page Teardown Dossier:** Print-ready client audit dossiers with native PDF print stylesheets and zero server queue dependencies.
 
+#### 🔬 [DOMHydrate](https://github.com/xcalibur73/dom-hydrate)
+*Forensic CSR vs. SSR SEO Diff Engine*
+- **Headless JavaScript Hydration Diffing:** Uses native Chromium (`--headless=new --dump-dom`) to compare raw server HTML against rendered client DOM.
+- **Search Regression Isolation:** Identifies dropped Schema.org JSON-LD scripts, client-injected `noindex` tags, and missing internal link graph edges.
+- **DOM Footprint Analytics:** Measures node expansion percentages, payload byte bloat, and server TTFB in milliseconds.
+
+#### 🤖 [CitationPulse](https://github.com/xcalibur73/citation-pulse)
+*Generative Engine Optimization (GEO) & AI Citability Auditor*
+- **Princeton KDD 2024 Scoring:** Evaluates content blocks against empirical citability formulas (optimal 134-167w blocks, +37% statistics, +40% attributions, +30% quotes).
+- **2026 AI Search Crawler Governance:** Audits `robots.txt` access distinguishing live search bots (`OAI-SearchBot`, `Claude-SearchBot`, `PerplexityBot`) from model scrapers (`GPTBot`, `CCBot`).
+- **Entity Graph Disambiguation:** Validates Schema.org Knowledge Graph connections (`sameAs` links to Wikidata/Wikipedia) and `/llms.txt` standard syntax.
+
 #### 🌐 [WebAudits.pro](https://webaudits.pro)
 *Next.js 14 Technical Performance Intelligence & Audit Platform*
-- **Ultra-Fast Architecture:** 100 pre-rendered static routes with 0 layout shift and sub-2.5s mobile LCP.
-- **135 Validated Schema.org Instances:** Validated JSON-LD entity graphs across 8 schemas (BreadcrumbList, TechArticle, FAQPage, SoftwareApplication).
+- **Ultra-Fast Architecture:** 103 pre-rendered static routes with 0 layout shift and sub-2.5s mobile LCP.
+- **139 Validated Schema.org Instances:** Validated JSON-LD entity graphs across 10 schemas (BreadcrumbList, TechArticle, FAQPage, SoftwareApplication, WebApplication).
 - **Zero AI-Slop & Empirical Benchmarks:** Independent data-backed hosting, CDN, and plugin benchmarks.
 
 #### 🏛️ [AestheticArches.com](https://aestheticarches.com)
