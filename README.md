@@ -19,7 +19,7 @@ The following four core repositories represent the primary diagnostic engines de
 **Forensic CSR vs. SSR SEO Diff Engine**  
 Compares raw server HTML against fully hydrated client DOM using native Chromium (`--headless=new --dump-dom`). Detects client-dropped Schema.org JSON-LD scripts, hydration-injected noindex directives, and internal link graph mutations before deployment.  
 - **Web Platform:** [webaudits.pro/tools/hydration-audit](https://webaudits.pro/tools/hydration-audit)  
-- **Benchmarks:** [Empirical 12-Site SSR vs. CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md)  
+- **Benchmarks:** [12-Site SSR vs. CSR Hydration Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md)  
 - **Stack:** Python 3.10+, Headless Chromium, BeautifulSoup4, Rich
 
 ### 2. [IndexTrace](https://github.com/xcalibur73/index-trace)
@@ -31,7 +31,7 @@ Follows redirect chains hop by hop, detects redirect loops, flags SSL protocol d
 
 ### 3. [PayloadSniper](https://github.com/xcalibur73/payload-sniper)
 **Interaction to Next Paint (INP), Long Tasks & Script Bloat-Tracer**  
-Profiles JavaScript execution, main-thread Long Tasks (> 50ms), and third-party tag congestion using Chrome DevTools Protocol (CDP) performance timelines. Simulates mid-tier mobile hardware with 4x CPU throttling to diagnose synthetic INP friction points.  
+Profiles JavaScript execution, main-thread Long Tasks (> 50ms), and third-party tag congestion using Chrome DevTools Protocol (CDP) performance timelines. Simulates mid-tier mobile hardware with 4x CPU throttling to diagnose synthetic interaction-risk points.  
 - **Web Platform:** [webaudits.pro/tools/payload-sniper](https://webaudits.pro/tools/payload-sniper)  
 - **Benchmarks:** [12-Site Third-Party Script Cost Study](https://github.com/xcalibur73/payload-sniper/blob/main/BENCHMARKS.md)  
 - **Stack:** Python 3.10+, Chromium CDP, W3C Navigation Timing
@@ -40,7 +40,7 @@ Profiles JavaScript execution, main-thread Long Tasks (> 50ms), and third-party 
 **Cross-Page Entity & Knowledge Graph Integrity Tracer**  
 Constructs in-memory directed knowledge graphs across multi-page site clusters from Schema.org JSON-LD blocks. Detects broken `@id` URI references, circular dependency loops, orphan entity nodes, publisher metadata drift, and missing `sameAs` entity disambiguation signals.  
 - **Web Platform:** [webaudits.pro/tools/schema-graph](https://webaudits.pro/tools/schema-graph)  
-- **Benchmarks:** [Cross-Page Entity Integrity Study](https://github.com/xcalibur73/schema-graph/blob/main/BENCHMARKS.md)  
+- **Benchmarks:** [12-Site Entity Graph Integrity Study](https://github.com/xcalibur73/schema-graph/blob/main/BENCHMARKS.md)  
 - **Stack:** Python 3.10+, Graph Engine, DFS Cycle Detection, 95 Unit Tests
 
 ---
