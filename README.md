@@ -28,6 +28,7 @@ I build open-source diagnostics for rendering parity, crawl behavior, structured
 | [PayloadSniper](https://github.com/xcalibur73/payload-sniper) | Profiles JavaScript cost, INP risks, and Core Web Vitals under device constraints. |
 | [ImgSpec](https://github.com/xcalibur73/img-spec) | Tests responsive-image delivery, viewport behavior, and LCP image configuration. |
 | [OverflowTrace](https://github.com/xcalibur73/overflow-trace) | Finds mobile horizontal overflow and identifies the elements responsible. |
+| [ProseLint](https://github.com/xcalibur73/prose-lint) | Deterministic editorial compiler, deslop quality gate, and multi-channel content transpiler. |
 
 Each project ships as a Python package with a CLI, machine-readable output, and tests.
 
