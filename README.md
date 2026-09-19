@@ -30,11 +30,14 @@ Edge-cached code split, INP and Core Web Vitals bloat-tracer. Profiles JavaScrip
 ### [LinkBleed](https://github.com/xcalibur73/link-bleed)
 Internal link graph and orphan page discovery engine. Constructs directed internal link graphs via hybrid Chromium CDP and static HTML crawling, simulates power iteration PageRank vectors, calculates site-wide PageRank Leakage Ratios (authority lost to dead ends, redirects, and nofollow tags), and isolates client-side JavaScript navigation discrepancies.
 
+### [ContextSilo](https://github.com/xcalibur73/context-silo)
+Semantic anchor text and vector contiguity auditor. Extracts enclosing paragraph contexts for internal links, computes token-level cosine similarity against destination entities, flags internal keyword cannibalization collisions, and generates entity-dense anchor replacements.
+
 ### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
 Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
 
 ### [WebAudits.pro](https://webaudits.pro)
-Technical performance intelligence and audit platform. Houses 118 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
+Technical performance intelligence and audit platform. Houses 120 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
 
 ### [AestheticArches.com](https://aestheticarches.com)
 Architectural and interior design publication built on GeneratePress with native Gutenberg blocks, LiteSpeed server caching, and Cloudflare CDN. Maintained with a zero-CLS layout budget and structured semantic topical clusters.
@@ -52,6 +55,7 @@ Each diagnostic tool includes documented empirical benchmarks and case studies g
 - [ImgSpec 12-Site Viewport & LCP Study](https://github.com/xcalibur73/img-spec/blob/main/BENCHMARKS.md): Measures mobile pixel waste (58.4% of downloaded image pixels discarded on media sites), site-wide lazy-loaded LCP anti-patterns, and modern format adoption.
 - [PayloadSniper 12-Site Hydration & INP Study](https://github.com/xcalibur73/payload-sniper/blob/main/BENCHMARKS.md): Audits main-thread execution costs (third-party tracking tags account for 71.4% of total blocking time on publishing properties) and synthetic INP vulnerability.
 - [LinkBleed 12-Site Internal Link Graph Study](https://github.com/xcalibur73/link-bleed/blob/main/BENCHMARKS.md): Quantifies internal PageRank equity leakage (up to 28.1% on media and retail domains), client-side JavaScript navigation voids, and sitemap orphan rates.
+- [ContextSilo 12-Site Semantic Anchor Study](https://github.com/xcalibur73/context-silo/blob/main/BENCHMARKS.md): Audits internal link anchor text profiles (66.7% of surveyed publishing sites exhibit anchor cannibalization collisions) and passage-level vector contiguity.
 
 ---
 
