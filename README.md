@@ -44,7 +44,7 @@ Mobile viewport horizontal overflow and layout breakage tracer. Emulates mobile 
 Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
 
 ### [WebAudits.pro](https://webaudits.pro)
-Technical performance intelligence and audit platform. Houses 105 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 141 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
+Technical performance intelligence and audit platform. Houses 108 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
 
 ### [AestheticArches.com](https://aestheticarches.com)
 Architectural and interior design publication built on GeneratePress with native Gutenberg blocks, LiteSpeed server caching, and Cloudflare CDN. Maintained with a zero-CLS layout budget and structured semantic topical clusters.
