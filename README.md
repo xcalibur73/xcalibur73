@@ -18,11 +18,14 @@ Google Search Console emergency triage utility and RFC 9309 crawler tracer. Foll
 ### [OverflowTrace](https://github.com/xcalibur73/overflow-trace)
 Mobile viewport horizontal overflow and layout breakage tracer. Emulates mobile screens (iPhone SE 375px, iPhone 14/15 390px, compact 320px) using native headless Chromium via CDP. Isolates exact bounding client rect spills, diagnoses rogue 100vw container offsets and unconstrained flex children, and outputs drop-in CSS remediation recipes.
 
+### [SchemaGraph](https://github.com/xcalibur73/schema-graph)
+Cross-page entity and knowledge graph integrity tracer. Constructs in-memory directed graphs across multi-page site clusters, detects broken @id URI references, circular loops, orphan entity nodes, publisher metadata drift, and missing sameAs Knowledge Graph disambiguation signals.
+
 ### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
 Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
 
 ### [WebAudits.pro](https://webaudits.pro)
-Technical performance intelligence and audit platform. Houses 108 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
+Technical performance intelligence and audit platform. Houses 111 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
 
 ### [AestheticArches.com](https://aestheticarches.com)
 Architectural and interior design publication built on GeneratePress with native Gutenberg blocks, LiteSpeed server caching, and Cloudflare CDN. Maintained with a zero-CLS layout budget and structured semantic topical clusters.
@@ -36,6 +39,7 @@ Each diagnostic tool includes documented empirical benchmarks and case studies g
 - [CitationPulse 12-Site GEO Index](https://github.com/xcalibur73/citation-pulse/blob/main/BENCHMARKS.md): Audits crawler access policies (41.7% of surveyed sites block training scrapers while permitting search retrieval bots) and Princeton KDD citability factors evaluated while beta testing on random sites.
 - [IndexTrace Forensic Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md): Analyzes line-level RFC 9309 collisions (such as line 238 on GitHub), 4,100ms+ cumulative redirect latency, and soft-404 heuristics captured while beta testing on random sites.
 - [OverflowTrace Mobile Viewport Benchmarks](https://github.com/xcalibur73/overflow-trace/blob/main/BENCHMARKS.md): Evaluates horizontal scroll overflow and containment across production layouts and synthetic breakages gathered while beta testing on random sites.
+- [SchemaGraph 12-Site Entity Integrity Study](https://github.com/xcalibur73/schema-graph/blob/main/BENCHMARKS.md): Audits cross-page @id reference resolution (58.3% of surveyed sites contain broken references), orphan entity node rates, and publisher metadata drift.
 
 ---
 
