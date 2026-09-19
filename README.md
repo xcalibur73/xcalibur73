@@ -1,87 +1,124 @@
 # xcalibur73
 
-[WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
+**Systems Engineer & Technical SEO Strategist**  
+*Headless Chromium Automation, Core Web Vitals, and Generative Engine Optimization*
+
+[WebAudits.pro](https://webaudits.pro) | [GitHub Repositories](https://github.com/xcalibur73?tab=repositories) | [AestheticArches.com](https://aestheticarches.com)
 
 ---
 
-## Featured Tools & Production Projects
+I build open-source diagnostic engines that audit DOM hydration disparities, Core Web Vitals bottlenecks, RFC 9309 crawler collisions, and semantic knowledge graphs. My work bridges low-level headless browser automation with technical search architecture, providing defensible, empirical tooling for engineering teams. These diagnostic engines power the underlying analysis pipeline of [WebAudits.pro](https://webaudits.pro).
 
-### [DOMHydrate](https://github.com/xcalibur73/dom-hydrate)
-Forensic CSR vs SSR SEO diff engine. Compares raw server HTML against fully hydrated client DOM using native Chromium (`--headless=new --dump-dom`). Detects dropped Schema.org JSON-LD scripts, client-injected noindex directives, and internal link graph discrepancies before deployment.
+---
 
-### [CitationPulse](https://github.com/xcalibur73/citation-pulse)
-Generative Engine Optimization (GEO) and AI citability auditor. Implements empirical scoring rules from Princeton University KDD 2024 research. Evaluates optimal passage length (134-167 words), statistical evidence (+37%), attribution markers (+40%), robots.txt permissions for search retrieval bots (OAI-SearchBot, Claude-SearchBot, PerplexityBot), and /llms.txt syntax.
+## Flagship Projects
 
-### [IndexTrace](https://github.com/xcalibur73/index-trace)
-Google Search Console emergency triage utility and RFC 9309 crawler tracer. Follows redirect chains hop by hop, detects circular loops, flags SSL protocol downgrades, and pinpoints the exact line number of blocking directives in robots.txt using standard longest-match precedence. Classifies soft-404 patterns on HTTP 200 responses and outputs ordered developer remediation steps.
+The following four core repositories represent the primary diagnostic engines developed for high-precision technical auditing:
 
-### [OverflowTrace](https://github.com/xcalibur73/overflow-trace)
-Mobile viewport horizontal overflow and layout breakage tracer. Emulates mobile screens (iPhone SE 375px, iPhone 14/15 390px, compact 320px) using native headless Chromium via CDP. Isolates exact bounding client rect spills, diagnoses rogue 100vw container offsets and unconstrained flex children, and outputs drop-in CSS remediation recipes.
+### 1. [DOMHydrate](https://github.com/xcalibur73/dom-hydrate)
+**Forensic CSR vs. SSR SEO Diff Engine**  
+Compares raw server HTML against fully hydrated client DOM using native Chromium (`--headless=new --dump-dom`). Detects client-dropped Schema.org JSON-LD scripts, hydration-injected noindex directives, and internal link graph mutations before deployment.  
+- **Web Platform:** [webaudits.pro/tools/hydration-audit](https://webaudits.pro/tools/hydration-audit)  
+- **Benchmarks:** [Empirical 12-Site SSR vs. CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md)  
+- **Stack:** Python 3.10+, Headless Chromium, BeautifulSoup4, Rich
 
-### [SchemaGraph](https://github.com/xcalibur73/schema-graph)
-Cross-page entity and knowledge graph integrity tracer. Constructs in-memory directed graphs across multi-page site clusters, detects broken @id URI references, circular loops, orphan entity nodes, publisher metadata drift, and missing sameAs Knowledge Graph disambiguation signals.
+### 2. [IndexTrace](https://github.com/xcalibur73/index-trace)
+**Google Search Console Forensic Diagnostic & RFC 9309 Crawler Tracer**  
+Follows redirect chains hop by hop, detects redirect loops, flags SSL protocol downgrades, and pinpoints the exact line number of blocking directives in robots.txt using RFC 9309 longest-match precedence. Classifies soft-404 response patterns and provides ordered remediation steps.  
+- **Web Platform:** [webaudits.pro/tools/index-trace](https://webaudits.pro/tools/index-trace)  
+- **Benchmarks:** [Line-Level RFC 9309 Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md)  
+- **Stack:** Python 3.10+, RFC 9309 Parser, HTTP Hop Tracer
 
-### [ImgSpec](https://github.com/xcalibur73/img-spec)
-Responsive viewport breakpoint and Largest Contentful Paint (LCP) image auditor. Emulates 5 responsive viewports via Chromium CDP, detects oversized desktop hero images served to mobile screens, calculates pixel waste ratios, audits fetchpriority and lazy-loaded hero defects, and generates drop-in responsive <picture> markup with calibrated srcset breakpoints.
+### 3. [PayloadSniper](https://github.com/xcalibur73/payload-sniper)
+**Interaction to Next Paint (INP), Long Tasks & Script Bloat-Tracer**  
+Profiles JavaScript execution, main-thread Long Tasks (> 50ms), and third-party tag congestion using Chrome DevTools Protocol (CDP) performance timelines. Simulates mid-tier mobile hardware with 4x CPU throttling to diagnose synthetic INP friction points.  
+- **Web Platform:** [webaudits.pro/tools/payload-sniper](https://webaudits.pro/tools/payload-sniper)  
+- **Benchmarks:** [12-Site Third-Party Script Cost Study](https://github.com/xcalibur73/payload-sniper/blob/main/BENCHMARKS.md)  
+- **Stack:** Python 3.10+, Chromium CDP, W3C Navigation Timing
 
-### [PayloadSniper](https://github.com/xcalibur73/payload-sniper)
-Edge-cached code split, INP and Core Web Vitals bloat-tracer. Profiles JavaScript hydration delays, main-thread Long Tasks (>50ms), and third-party script congestion (GTM, Meta, Hotjar, Klaviyo) using Chrome DevTools Protocol performance timelines.
+### 4. [SchemaGraph](https://github.com/xcalibur73/schema-graph)
+**Cross-Page Entity & Knowledge Graph Integrity Tracer**  
+Constructs in-memory directed knowledge graphs across multi-page site clusters from Schema.org JSON-LD blocks. Detects broken `@id` URI references, circular dependency loops, orphan entity nodes, publisher metadata drift, and missing `sameAs` entity disambiguation signals.  
+- **Web Platform:** [webaudits.pro/tools/schema-graph](https://webaudits.pro/tools/schema-graph)  
+- **Benchmarks:** [Cross-Page Entity Integrity Study](https://github.com/xcalibur73/schema-graph/blob/main/BENCHMARKS.md)  
+- **Stack:** Python 3.10+, Graph Engine, DFS Cycle Detection, 95 Unit Tests
 
-### [LinkBleed](https://github.com/xcalibur73/link-bleed)
-Internal link graph and orphan page discovery engine. Constructs directed internal link graphs via hybrid Chromium CDP and static HTML crawling, simulates power iteration PageRank vectors, calculates site-wide PageRank Leakage Ratios (authority lost to dead ends, redirects, and nofollow tags), and isolates client-side JavaScript navigation discrepancies.
+---
 
-### [ContextSilo](https://github.com/xcalibur73/context-silo)
-Semantic anchor text and vector contiguity auditor. Extracts enclosing paragraph contexts for internal links, computes token-level cosine similarity against destination entities, flags internal keyword cannibalization collisions, and generates entity-dense anchor replacements.
+## The Diagnostic Tooling Ecosystem
 
-### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
-Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
+All repositories follow PEP 621 packaging standards, provide automated unit test suites, run GitHub Actions CI/CD pipelines, and link back to live web platform endpoints on [WebAudits.pro](https://webaudits.pro).
+
+```text
+                               +-----------------------------+
+                               |        WebAudits.pro        |
+                               |  Technical Audit Platform   |
+                               +--------------+--------------+
+                                              |
+        +---------------------+---------------+---------------------+---------------------+
+        |                     |                                     |                     |
+        v                     v                                     v                     v
+ [Rendering & DOM]    [Crawl & Directives]                 [Performance & INP]    [Semantic & Entities]
+  - DOMHydrate         - IndexTrace                         - PayloadSniper        - SchemaGraph
+  - OverflowTrace      - LinkBleed                          - ImgSpec              - CitationPulse
+                                                                                   - ContextSilo
+```
+
+### Complete Tool Suite
+
+| Tool | Focus Area | Core Standard / Heuristic | Platform Route |
+|:---|:---|:---|:---|
+| [DOMHydrate](https://github.com/xcalibur73/dom-hydrate) | SSR vs. CSR Parity | Chromium AST / DOM Expansion | [/tools/hydration-audit](https://webaudits.pro/tools/hydration-audit) |
+| [IndexTrace](https://github.com/xcalibur73/index-trace) | GSC Indexing & Directives | RFC 9309 Robots.txt Parser | [/tools/index-trace](https://webaudits.pro/tools/index-trace) |
+| [PayloadSniper](https://github.com/xcalibur73/payload-sniper) | INP & Long Tasks | W3C Long Tasks / 4x CPU Throttling | [/tools/payload-sniper](https://webaudits.pro/tools/payload-sniper) |
+| [SchemaGraph](https://github.com/xcalibur73/schema-graph) | Entity Knowledge Graphs | W3C RDF / Schema.org Directed Graph | [/tools/schema-graph](https://webaudits.pro/tools/schema-graph) |
+| [OverflowTrace](https://github.com/xcalibur73/overflow-trace) | Mobile Viewport Layout | Visual Viewport API / 0-Scroll Spill | [/tools/overflow-trace](https://webaudits.pro/tools/overflow-trace) |
+| [ImgSpec](https://github.com/xcalibur73/img-spec) | LCP & Breakpoint Efficiency | Viewport Geometry / Pixel Waste | [/tools/img-spec](https://webaudits.pro/tools/img-spec) |
+| [LinkBleed](https://github.com/xcalibur73/link-bleed) | Internal Link Equity | Power Iteration Link-Equity Model | [/tools/link-bleed](https://webaudits.pro/tools/link-bleed) |
+| [CitationPulse](https://github.com/xcalibur73/citation-pulse) | Generative Engine Optimization | Princeton KDD 2024 Passage Citability | [/tools/geo-audit](https://webaudits.pro/tools/geo-audit) |
+| [ContextSilo](https://github.com/xcalibur73/context-silo) | Semantic Anchor Vector Contiguity | TF-IDF Cosine Similarity Vectors | [/tools/context-silo](https://webaudits.pro/tools/context-silo) |
+
+---
+
+## Production Platforms
 
 ### [WebAudits.pro](https://webaudits.pro)
-Technical performance intelligence and audit platform. Houses 120 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
+Technical performance intelligence and audit platform.
+- **Architecture:** Next.js App Router, TypeScript, Tailwind CSS.
+- **Performance:** 120 pre-rendered static routes, sub-2.5s mobile LCP, 0 CLS.
+- **Structured Data:** 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
 
 ### [AestheticArches.com](https://aestheticarches.com)
-Architectural and interior design publication built on GeneratePress with native Gutenberg blocks, LiteSpeed server caching, and Cloudflare CDN. Maintained with a zero-CLS layout budget and structured semantic topical clusters.
+Architectural and interior design publication.
+- **Architecture:** GeneratePress Premium, Gutenberg custom blocks, LiteSpeed server caching, Cloudflare CDN.
+- **Performance:** Zero-CLS layout budget, fluid clamp() typography scales, responsive image optimization.
 
 ---
 
-## Empirical Benchmarks & Field Studies
+## Engineering Standards & Methodologies
 
-Each diagnostic tool includes documented empirical benchmarks and case studies gathered while beta testing on random sites:
-- [DOMHydrate 12-Site SSR vs CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md): Measures DOM node inflation (+13% to +30% on client-rendered SPAs) and critical link parity losses gathered while beta testing on random sites.
-- [CitationPulse 12-Site GEO Index](https://github.com/xcalibur73/citation-pulse/blob/main/BENCHMARKS.md): Audits crawler access policies (41.7% of surveyed sites block training scrapers while permitting search retrieval bots) and Princeton KDD citability factors evaluated while beta testing on random sites.
-- [IndexTrace Forensic Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md): Analyzes line-level RFC 9309 collisions (such as line 238 on GitHub), 4,100ms+ cumulative redirect latency, and soft-404 heuristics captured while beta testing on random sites.
-- [OverflowTrace Mobile Viewport Benchmarks](https://github.com/xcalibur73/overflow-trace/blob/main/BENCHMARKS.md): Evaluates horizontal scroll overflow and containment across production layouts and synthetic breakages gathered while beta testing on random sites.
-- [SchemaGraph 12-Site Entity Integrity Study](https://github.com/xcalibur73/schema-graph/blob/main/BENCHMARKS.md): Audits cross-page @id reference resolution (58.3% of surveyed sites contain broken references), orphan entity node rates, and publisher metadata drift.
-- [ImgSpec 12-Site Viewport & LCP Study](https://github.com/xcalibur73/img-spec/blob/main/BENCHMARKS.md): Measures mobile pixel waste (58.4% of downloaded image pixels discarded on media sites), site-wide lazy-loaded LCP anti-patterns, and modern format adoption.
-- [PayloadSniper 12-Site Hydration & INP Study](https://github.com/xcalibur73/payload-sniper/blob/main/BENCHMARKS.md): Audits main-thread execution costs (third-party tracking tags account for 71.4% of total blocking time on publishing properties) and synthetic INP vulnerability.
-- [LinkBleed 12-Site Internal Link Graph Study](https://github.com/xcalibur73/link-bleed/blob/main/BENCHMARKS.md): Quantifies internal PageRank equity leakage (up to 28.1% on media and retail domains), client-side JavaScript navigation voids, and sitemap orphan rates.
-- [ContextSilo 12-Site Semantic Anchor Study](https://github.com/xcalibur73/context-silo/blob/main/BENCHMARKS.md): Audits internal link anchor text profiles (66.7% of surveyed publishing sites exhibit anchor cannibalization collisions) and passage-level vector contiguity.
+Every tool repository adheres to strict software engineering standards:
+1. **Defensible Metric Taxonomy:** Metrics are explicitly labeled as established standards (RFC 9309, W3C Navigation Timing), project-derived heuristics (Passage Citability score), or experimental indicators (synthetic INP projection).
+2. **Reproducible Benchmarks:** Every field study documents the exact test dataset, tool version, execution command, hardware environment, raw telemetry, and mathematical calculation formulas.
+3. **Automated Testing:** 177 unit tests continuously validated across Python 3.10 and 3.12 environments via GitHub Actions CI.
+4. **Cross-Platform Safety:** Fully hardened against Windows terminal encoding failures (`_safe_str` sanitization).
+5. **Standardized Packaging:** PEP 621 `pyproject.toml` specification supporting direct installation via `pip install .`.
 
 ---
 
 ## Technical Stack
 
-| Domain | Tooling and Technologies |
-|---|---|
-| Core Web Vitals | INP optimization, LCP acceleration, 0-CLS layouts, DOM profiling, TTFB tuning, edge caching |
-| Frontend | Next.js App Router, TypeScript, React, Tailwind CSS, Chrome Extensions (Manifest V3) |
-| Technical SEO | Schema.org JSON-LD, Google Search Console, llms.txt, entity graphs, crawl log analysis |
-| CMS Architecture | GeneratePress, Gutenberg custom blocks, LiteSpeed Cache, Redis object cache, Cloudflare CDN |
-| Automation & Headless | Chromium CDP automation, Chrome DevTools profiling, Python, Firecrawl |
+| Category | Technologies |
+|:---|:---|
+| **Core Web Vitals** | INP optimization, LCP acceleration, 0-CLS layouts, main-thread Long Task profiling |
+| **Browser Automation** | Chrome DevTools Protocol (CDP), Headless Chromium, Python, Playwright |
+| **Technical SEO** | RFC 9309 robots.txt, Schema.org JSON-LD, crawl budget modeling, llms.txt |
+| **Frontend Engineering** | Next.js App Router, React, TypeScript, Tailwind CSS, Chrome Extensions (Manifest V3) |
+| **CMS Architecture** | GeneratePress, Gutenberg blocks, LiteSpeed Cache, Redis object cache, Cloudflare CDN |
 
 ---
-
-## GitHub Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=xcalibur73&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xcalibur73&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
-
----
-
-## Platforms
-
-- [WebAudits.pro](https://webaudits.pro): Technical performance intelligence and audit platform.
-- [AestheticArches.com](https://aestheticarches.com): Architecture publication with zero-CLS layout budget.
-
