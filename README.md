@@ -37,6 +37,9 @@ Generative Engine Optimization (GEO) and AI citability auditor. Implements empir
 ### [IndexTrace](https://github.com/xcalibur73/index-trace)
 Google Search Console emergency triage utility and RFC 9309 crawler tracer. Follows redirect chains hop by hop, detects circular loops, flags SSL protocol downgrades, and pinpoints the exact line number of blocking directives in robots.txt using standard longest-match precedence. Classifies soft-404 patterns on HTTP 200 responses and outputs ordered developer remediation steps.
 
+### [OverflowTrace](https://github.com/xcalibur73/overflow-trace)
+Mobile viewport horizontal overflow and layout breakage tracer. Emulates mobile screens (iPhone SE 375px, iPhone 14/15 390px, compact 320px) using native headless Chromium via CDP. Isolates exact bounding client rect spills, diagnoses rogue 100vw container offsets and unconstrained flex children, and outputs drop-in CSS remediation recipes.
+
 ### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
 Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
 
@@ -54,6 +57,7 @@ Each diagnostic tool includes documented empirical benchmarks and case studies g
 - [DOMHydrate 12-Site SSR vs CSR Study](https://github.com/xcalibur73/dom-hydrate/blob/main/BENCHMARKS.md): Measures DOM node inflation (+13% to +30% on client-rendered SPAs) and critical link parity losses gathered while beta testing on random sites.
 - [CitationPulse 12-Site GEO Index](https://github.com/xcalibur73/citation-pulse/blob/main/BENCHMARKS.md): Audits crawler access policies (41.7% of surveyed sites block training scrapers while permitting search retrieval bots) and Princeton KDD citability factors evaluated while beta testing on random sites.
 - [IndexTrace Forensic Case Studies](https://github.com/xcalibur73/index-trace/blob/main/BENCHMARKS.md): Analyzes line-level RFC 9309 collisions (such as line 238 on GitHub), 4,100ms+ cumulative redirect latency, and soft-404 heuristics captured while beta testing on random sites.
+- [OverflowTrace Mobile Viewport Benchmarks](https://github.com/xcalibur73/overflow-trace/blob/main/BENCHMARKS.md): Evaluates horizontal scroll overflow and containment across production layouts and synthetic breakages gathered while beta testing on random sites.
 
 ---
 
