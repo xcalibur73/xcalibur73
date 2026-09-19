@@ -1,28 +1,6 @@
 # xcalibur73
 
-Technical SEO specialist and systems builder focused on Core Web Vitals, crawl architecture, and Generative Engine Optimization. I direct autonomous AI coding agents to build and ship production-grade developer tools and web performance audits.
-
 [WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
-
----
-
-## Focus Areas
-
-- Web performance and Core Web Vitals: sub-2.5s LCP, sub-200ms INP, and 0.00 CLS across Next.js and high-traffic WordPress deployments.
-- Technical SEO and knowledge graphs: Schema.org JSON-LD architecture, crawl budget preservation, and AI search readiness.
-- AI-native development: orchestrating autonomous coding agents as a force multiplier to ship production-grade mini tools at 5x-10x velocity.
-
----
-
-## Technical Stack
-
-| Domain | Tooling and Technologies |
-|---|---|
-| Core Web Vitals | INP optimization, LCP acceleration, 0-CLS layouts, DOM profiling, TTFB tuning, edge caching |
-| Frontend | Next.js 14/15 App Router, TypeScript, React, Tailwind CSS, Chrome Extensions (Manifest V3) |
-| Technical SEO | Schema.org JSON-LD, Google Search Console, llms.txt, entity graphs, crawl log analysis |
-| CMS Architecture | GeneratePress, Gutenberg custom blocks, LiteSpeed Cache, Redis object cache, Cloudflare CDN |
-| Analysis & Scraping | Chromium headless automation, Chrome DevTools profiling, WebPageTest, Python, Firecrawl |
 
 ---
 
@@ -61,6 +39,18 @@ Each diagnostic tool includes documented empirical benchmarks and case studies g
 
 ---
 
+## Technical Stack
+
+| Domain | Tooling and Technologies |
+|---|---|
+| Core Web Vitals | INP optimization, LCP acceleration, 0-CLS layouts, DOM profiling, TTFB tuning, edge caching |
+| Frontend | Next.js App Router, TypeScript, React, Tailwind CSS, Chrome Extensions (Manifest V3) |
+| Technical SEO | Schema.org JSON-LD, Google Search Console, llms.txt, entity graphs, crawl log analysis |
+| CMS Architecture | GeneratePress, Gutenberg custom blocks, LiteSpeed Cache, Redis object cache, Cloudflare CDN |
+| Automation & Headless | Chromium CDP automation, Chrome DevTools profiling, Python, Firecrawl |
+
+---
+
 ## GitHub Statistics
 
 <div align="center">
@@ -70,8 +60,8 @@ Each diagnostic tool includes documented empirical benchmarks and case studies g
 
 ---
 
-## Contact
+## Platforms
 
-Available for technical SEO engagements, Core Web Vitals remediation sprints, and AI-augmented developer workflows.
+- [WebAudits.pro](https://webaudits.pro): Technical performance intelligence and audit platform.
+- [AestheticArches.com](https://aestheticarches.com): Architecture publication with zero-CLS layout budget.
 
-- Platforms: [WebAudits.pro](https://webaudits.pro) | [AestheticArches.com](https://aestheticarches.com)
