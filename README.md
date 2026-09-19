@@ -24,11 +24,14 @@ Cross-page entity and knowledge graph integrity tracer. Constructs in-memory dir
 ### [ImgSpec](https://github.com/xcalibur73/img-spec)
 Responsive viewport breakpoint and Largest Contentful Paint (LCP) image auditor. Emulates 5 responsive viewports via Chromium CDP, detects oversized desktop hero images served to mobile screens, calculates pixel waste ratios, audits fetchpriority and lazy-loaded hero defects, and generates drop-in responsive <picture> markup with calibrated srcset breakpoints.
 
+### [PayloadSniper](https://github.com/xcalibur73/payload-sniper)
+Edge-cached code split, INP and Core Web Vitals bloat-tracer. Profiles JavaScript hydration delays, main-thread Long Tasks (>50ms), and third-party script congestion (GTM, Meta, Hotjar, Klaviyo) using Chrome DevTools Protocol performance timelines.
+
 ### [VitalsSniper PRO](https://github.com/xcalibur73/vitalssniper-portal)
 Manifest V3 Chrome extension for in-browser web performance audits. Scans DOM depth, serialized document markup size, mobile viewport scaling restrictions, and Schema.org syntax in under 50ms without third-party API dependencies. Generates technical audit teardowns and exportable CSV summaries.
 
 ### [WebAudits.pro](https://webaudits.pro)
-Technical performance intelligence and audit platform. Houses 113 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
+Technical performance intelligence and audit platform. Houses 115 pre-rendered static Next.js routes with zero layout shift, sub-2.5s mobile LCP, and 143 validated Schema.org JSON-LD instances across technical articles, reviews, and interactive diagnostic tools.
 
 ### [AestheticArches.com](https://aestheticarches.com)
 Architectural and interior design publication built on GeneratePress with native Gutenberg blocks, LiteSpeed server caching, and Cloudflare CDN. Maintained with a zero-CLS layout budget and structured semantic topical clusters.
@@ -44,6 +47,7 @@ Each diagnostic tool includes documented empirical benchmarks and case studies g
 - [OverflowTrace Mobile Viewport Benchmarks](https://github.com/xcalibur73/overflow-trace/blob/main/BENCHMARKS.md): Evaluates horizontal scroll overflow and containment across production layouts and synthetic breakages gathered while beta testing on random sites.
 - [SchemaGraph 12-Site Entity Integrity Study](https://github.com/xcalibur73/schema-graph/blob/main/BENCHMARKS.md): Audits cross-page @id reference resolution (58.3% of surveyed sites contain broken references), orphan entity node rates, and publisher metadata drift.
 - [ImgSpec 12-Site Viewport & LCP Study](https://github.com/xcalibur73/img-spec/blob/main/BENCHMARKS.md): Measures mobile pixel waste (58.4% of downloaded image pixels discarded on media sites), site-wide lazy-loaded LCP anti-patterns, and modern format adoption.
+- [PayloadSniper 12-Site Hydration & INP Study](https://github.com/xcalibur73/payload-sniper/blob/main/BENCHMARKS.md): Audits main-thread execution costs (third-party tracking tags account for 71.4% of total blocking time on publishing properties) and synthetic INP vulnerability.
 
 ---
 
