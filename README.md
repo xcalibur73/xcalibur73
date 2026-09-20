@@ -15,7 +15,15 @@ I build open-source diagnostics for rendering parity, crawl behavior, structured
 | Structured data | Validate linked-data relationships across pages and surface broken entity references. |
 | Performance | Profile script cost, long tasks, image delivery, and mobile layout failures. |
 
-## Open-source diagnostic suite
+## Flagship diagnostic suite
+
+[WebAudits](https://github.com/xcalibur73/webaudits) is the unified open-source technical diagnostics suite powering [WebAudits.pro](https://webaudits.pro), covering Crawl Forensics, SSR/Hydration Parity, Knowledge Graphs, Runtime Performance, and AI-Search Citability. It integrates the 10 specialized engines below and includes empirical production case studies:
+
+- Architecture & Suite Hub: [github.com/xcalibur73/webaudits](https://github.com/xcalibur73/webaudits)
+- Production Case Study: [AestheticArches Technical Remediation](https://github.com/xcalibur73/webaudits/blob/main/case-studies/aesthetic-arches.md)
+- Public Benchmark Dataset: [100 URLs across 5 Web Frameworks](https://github.com/xcalibur73/webaudits/blob/main/benchmarks/DATASET.md)
+
+## Specialized diagnostic engines
 
 | Tool | Purpose |
 | --- | --- |
